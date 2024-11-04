@@ -1,0 +1,20 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "husky": "^9.1.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo HELLOWORLD",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  }
+}

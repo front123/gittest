@@ -1,0 +1,1 @@
+# This is test place for git.
